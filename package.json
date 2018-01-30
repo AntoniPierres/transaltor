@@ -1,0 +1,26 @@
+{
+  "name": "platzom",
+  "version": "0.1.0",
+  "description": "traductor de lenguaje inventado",
+  "main": "dist/source/platzom.js",
+  "scripts": {
+    "build": "babel source/platzom.js -d dist",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AntoniPierres/transaltor.git"
+  },
+  "author": "=",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AntoniPierres/transaltor/issues"
+  },
+  "homepage": "https://github.com/AntoniPierres/transaltor#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "chai": "^4.1.2",
+    "mocha": "^5.0.0"
+  }
+}
